@@ -1,4 +1,5 @@
 compatibility_date = "2022-05-09"
+main = "./index.js"
 name = "skill-icons"
 usage_model = 'bundled'
 compatibility_flags = []
