@@ -1,3 +1,4 @@
+compatibility_date = "2022-05-09"
 name = "skill-icons"
 type = "webpack"
 route = ''
@@ -5,7 +6,6 @@ zone_id = ''
 usage_model = ''
 compatibility_flags = []
 workers_dev = false
-compatibility_date = "2022-03-02"
 routes = [
   { pattern = "skill-icons.hallexcosta.com", custom_domain = true }
 ]
