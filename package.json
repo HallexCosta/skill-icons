@@ -9,6 +9,7 @@
 		"deploy": "node build.js && wrangler publish"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
 		"miniflare": "^2.3.0",
 		"prettier": "^2.5.1"
 	}
