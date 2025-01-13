@@ -1,11 +1,13 @@
 compatibility_date = "2022-05-09"
 name = "skill-icons"
-type = "webpack"
-route = ''
-zone_id = ''
-usage_model = ''
+usage_model = 'bundled'
 compatibility_flags = []
 workers_dev = false
 routes = [
   { pattern = "skill-icons.hallexcosta.com", custom_domain = true }
 ]
+
+[build]
+command = "npm run build"
+cwd = "."
+watch_dir = "build_watch_dir"
