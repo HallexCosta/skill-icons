@@ -128,3 +128,7 @@ dist
 
 # Cloudflare Worker
 worker/
+
+**/**/db.json
+
+.wrangler
