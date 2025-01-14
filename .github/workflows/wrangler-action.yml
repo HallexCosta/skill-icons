@@ -20,7 +20,7 @@ jobs:
           node-version: 16
 
       - name: build
-        run: yarn build
+        run: pnpm build
 
       - name: Publish
         uses: cloudflare/wrangler-action@v3
