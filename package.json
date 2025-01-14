@@ -1,17 +1,24 @@
 {
   "name": "skill-icons",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/modules/skill-icons/index.js",
+  "exports": "./src/modules/skill-icons/index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "dev": "node build.js && miniflare --watch",
-    "build": "node build.js",
+    "skill-icons:dev": "pnpm build && npx wrangler dev --live-reload ./src/modules/skill-icons/index.js",
+    "build": "node ./src/modules/skill-icons/build.js",
     "format": "pnpm biome format --write .",
-    "deploy": "node build.js && wrangler publish"
+    "deploy": "node ./src/modules/skill-icons/build.js && wrangler publish",
+    "skills-icons-markdown-generator:generate": "node ./src/modules/skill-icons-markdown-generator/index.js"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "miniflare": "^2.3.0",
-    "prettier": "^2.5.1"
+    "@biomejs/biome": "1.9.4"
+  },
+  "dependencies": {
+    "dotenv-safe": "^9.1.0",
+    "lodash": "^4.17.21",
+    "lowdb": "^7.0.1",
+    "tablemark": "^3.1.0"
   }
 }
