@@ -15,12 +15,13 @@ jobs:
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
-        run: npm install -g pnpm
         with:
           node-version: 16
 
-      - name: build
-        run: pnpm build
+      - name: 👷 Building ./dist/icons.json 
+        run: |
+          npm i -g pnpm
+          pnpm build
 
       - name: Publish
         uses: cloudflare/wrangler-action@v3
