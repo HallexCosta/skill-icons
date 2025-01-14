@@ -1,0 +1,1192 @@
+{
+  "ableton": {
+    "alias": ["ableton", "dark:ableton", "light:ableton", "test"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "activitypub": {
+    "alias": ["activitypub", "dark:activitypub", "light:activitypub"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "actix": {
+    "alias": ["actix", "dark:actix", "light:actix"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "aiscript": {
+    "alias": ["aiscript", "dark:aiscript", "light:aiscript"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "alpinejs": {
+    "alias": ["alpinejs", "dark:alpinejs", "light:alpinejs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "anaconda": {
+    "alias": ["anaconda", "dark:anaconda", "light:anaconda"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "androidstudio": {
+    "alias": ["androidstudio", "dark:androidstudio", "light:androidstudio"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "angular": {
+    "alias": ["angular", "dark:angular", "light:angular"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "apple": {
+    "alias": ["apple", "dark:apple", "light:apple"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "arch": {
+    "alias": ["arch", "dark:arch", "light:arch"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "autocad": {
+    "alias": ["autocad", "dark:autocad", "light:autocad"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "aws": {
+    "alias": ["aws", "dark:aws", "light:aws"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "azure": {
+    "alias": ["azure", "dark:azure", "light:azure"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "bash": {
+    "alias": ["bash", "dark:bash", "light:bash"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "bevy": {
+    "alias": ["bevy", "dark:bevy", "light:bevy"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "bitbucket": {
+    "alias": ["bitbucket", "dark:bitbucket", "light:bitbucket"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "blender": {
+    "alias": ["blender", "dark:blender", "light:blender"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "bsd": {
+    "alias": ["bsd", "dark:bsd", "light:bsd"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "bun": {
+    "alias": ["bun", "dark:bun", "light:bun"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "cassandra": {
+    "alias": ["cassandra", "dark:cassandra", "light:cassandra"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "clion": {
+    "alias": ["clion", "dark:clion", "light:clion"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "clojure": {
+    "alias": ["clojure", "dark:clojure", "light:clojure"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "cloudflare": {
+    "alias": ["cloudflare", "dark:cloudflare", "light:cloudflare"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "cmake": {
+    "alias": ["cmake", "dark:cmake", "light:cmake"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "codepen": {
+    "alias": ["codepen", "dark:codepen", "light:codepen"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "coffeescript": {
+    "alias": ["coffeescript", "dark:coffeescript", "light:coffeescript"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "crystal": {
+    "alias": ["crystal", "dark:crystal", "light:crystal"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "cypress": {
+    "alias": ["cypress", "dark:cypress", "light:cypress"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "d3": {
+    "alias": ["d3", "dark:d3", "light:d3"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "dart": {
+    "alias": ["dart", "dark:dart", "light:dart"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "debian": {
+    "alias": ["debian", "dark:debian", "light:debian"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "deno": {
+    "alias": ["deno", "dark:deno", "light:deno"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "devto": {
+    "alias": ["devto", "dark:devto", "light:devto"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "discordjs": {
+    "alias": ["discordjs", "dark:discordjs", "light:discordjs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "dynamodb": {
+    "alias": ["dynamodb", "dark:dynamodb", "light:dynamodb"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "eclipse": {
+    "alias": ["eclipse", "dark:eclipse", "light:eclipse"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "elasticsearch": {
+    "alias": ["elasticsearch", "dark:elasticsearch", "light:elasticsearch"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "elixir": {
+    "alias": ["elixir", "dark:elixir", "light:elixir"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "elysia": {
+    "alias": ["elysia", "dark:elysia", "light:elysia"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "emotion": {
+    "alias": ["emotion", "dark:emotion", "light:emotion"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "expressjs": {
+    "alias": ["expressjs", "dark:expressjs", "light:expressjs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "fediverse": {
+    "alias": ["fediverse", "dark:fediverse", "light:fediverse"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "figma": {
+    "alias": ["figma", "dark:figma", "light:figma"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "firebase": {
+    "alias": ["firebase", "dark:firebase", "light:firebase"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "flask": {
+    "alias": ["flask", "dark:flask", "light:flask"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "flutter": {
+    "alias": ["flutter", "dark:flutter", "light:flutter"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "gcp": {
+    "alias": ["gcp", "dark:gcp", "light:gcp"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "gherkin": {
+    "alias": ["gherkin", "dark:gherkin", "light:gherkin"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "github": {
+    "alias": ["github", "dark:github", "light:github"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "githubactions": {
+    "alias": ["githubactions", "dark:githubactions", "light:githubactions"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "gitlab": {
+    "alias": ["gitlab", "dark:gitlab", "light:gitlab"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "gmail": {
+    "alias": ["gmail", "dark:gmail", "light:gmail"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "godot": {
+    "alias": ["godot", "dark:godot", "light:godot"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "gradle": {
+    "alias": ["gradle", "dark:gradle", "light:gradle"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "grafana": {
+    "alias": ["grafana", "dark:grafana", "light:grafana"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "graphql": {
+    "alias": ["graphql", "dark:graphql", "light:graphql"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "gtk": {
+    "alias": ["gtk", "dark:gtk", "light:gtk"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "haskell": {
+    "alias": ["haskell", "dark:haskell", "light:haskell"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "haxe": {
+    "alias": ["haxe", "dark:haxe", "light:haxe"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "haxeflixel": {
+    "alias": ["haxeflixel", "dark:haxeflixel", "light:haxeflixel"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "hibernate": {
+    "alias": ["hibernate", "dark:hibernate", "light:hibernate"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "htmx": {
+    "alias": ["htmx", "dark:htmx", "light:htmx"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "hyperf": {
+    "alias": ["hyperf", "dark:hyperf", "light:hyperf"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "idea": {
+    "alias": ["idea", "dark:idea", "light:idea"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "ipfs": {
+    "alias": ["ipfs", "dark:ipfs", "light:ipfs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "java": {
+    "alias": ["java", "dark:java", "light:java"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "jenkins": {
+    "alias": ["jenkins", "dark:jenkins", "light:jenkins"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "julia": {
+    "alias": ["julia", "dark:julia", "light:julia"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "kali": {
+    "alias": ["kali", "dark:kali", "light:kali"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "kotlin": {
+    "alias": ["kotlin", "dark:kotlin", "light:kotlin"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "ktor": {
+    "alias": ["ktor", "dark:ktor", "light:ktor"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "laravel": {
+    "alias": ["laravel", "dark:laravel", "light:laravel"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "latex": {
+    "alias": ["latex", "dark:latex", "light:latex"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "less": {
+    "alias": ["less", "dark:less", "light:less"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "linux": {
+    "alias": ["linux", "dark:linux", "light:linux"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "lit": {
+    "alias": ["lit", "dark:lit", "light:lit"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "lua": {
+    "alias": ["lua", "dark:lua", "light:lua"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "markdown": {
+    "alias": ["markdown", "dark:markdown", "light:markdown"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "mastodon": {
+    "alias": ["mastodon", "dark:mastodon", "light:mastodon"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "materialui": {
+    "alias": ["materialui", "dark:materialui", "light:materialui"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "matlab": {
+    "alias": ["matlab", "dark:matlab", "light:matlab"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "maven": {
+    "alias": ["maven", "dark:maven", "light:maven"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "mint": {
+    "alias": ["mint", "dark:mint", "light:mint"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "misskey": {
+    "alias": ["misskey", "dark:misskey", "light:misskey"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "mysql": {
+    "alias": ["mysql", "dark:mysql", "light:mysql"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "neovim": {
+    "alias": ["neovim", "dark:neovim", "light:neovim"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "nestjs": {
+    "alias": ["nestjs", "dark:nestjs", "light:nestjs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "netlify": {
+    "alias": ["netlify", "dark:netlify", "light:netlify"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "nextjs": {
+    "alias": ["nextjs", "dark:nextjs", "light:nextjs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "nim": {
+    "alias": ["nim", "dark:nim", "light:nim"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "nix": {
+    "alias": ["nix", "dark:nix", "light:nix"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "nodejs": {
+    "alias": ["nodejs", "dark:nodejs", "light:nodejs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "notion": {
+    "alias": ["notion", "dark:notion", "light:notion"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "npm": {
+    "alias": ["npm", "dark:npm", "light:npm"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "nuxtjs": {
+    "alias": ["nuxtjs", "dark:nuxtjs", "light:nuxtjs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "obsidian": {
+    "alias": ["obsidian", "dark:obsidian", "light:obsidian"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "octave": {
+    "alias": ["octave", "dark:octave", "light:octave"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "opencv": {
+    "alias": ["opencv", "dark:opencv", "light:opencv"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "openstack": {
+    "alias": ["openstack", "dark:openstack", "light:openstack"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "php": {
+    "alias": ["php", "dark:php", "light:php"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "phpstorm": {
+    "alias": ["phpstorm", "dark:phpstorm", "light:phpstorm"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "pinia": {
+    "alias": ["pinia", "dark:pinia", "light:pinia"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "pkl": {
+    "alias": ["pkl", "dark:pkl", "light:pkl"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "plan9": {
+    "alias": ["plan9", "dark:plan9", "light:plan9"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "planetscale": {
+    "alias": ["planetscale", "dark:planetscale", "light:planetscale"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "pnpm": {
+    "alias": ["pnpm", "dark:pnpm", "light:pnpm"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "postgresql": {
+    "alias": ["postgresql", "dark:postgresql", "light:postgresql"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "powershell": {
+    "alias": ["powershell", "dark:powershell", "light:powershell"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "processing": {
+    "alias": ["processing", "dark:processing", "light:processing"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "pug": {
+    "alias": ["pug", "dark:pug", "light:pug"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "pycharm": {
+    "alias": ["pycharm", "dark:pycharm", "light:pycharm"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "python": {
+    "alias": ["python", "dark:python", "light:python"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "pytorch": {
+    "alias": ["pytorch", "dark:pytorch", "light:pytorch"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "qt": {
+    "alias": ["qt", "dark:qt", "light:qt"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "r": {
+    "alias": ["r", "dark:r", "light:r"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "rabbitmq": {
+    "alias": ["rabbitmq", "dark:rabbitmq", "light:rabbitmq"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "raspberrypi": {
+    "alias": ["raspberrypi", "dark:raspberrypi", "light:raspberrypi"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "react": {
+    "alias": ["react", "dark:react", "light:react"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "reactivex": {
+    "alias": ["reactivex", "dark:reactivex", "light:reactivex"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "redhat": {
+    "alias": ["redhat", "dark:redhat", "light:redhat"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "redis": {
+    "alias": ["redis", "dark:redis", "light:redis"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "regex": {
+    "alias": ["regex", "dark:regex", "light:regex"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "remix": {
+    "alias": ["remix", "dark:remix", "light:remix"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "replit": {
+    "alias": ["replit", "dark:replit", "light:replit"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "rider": {
+    "alias": ["rider", "dark:rider", "light:rider"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "rollupjs": {
+    "alias": ["rollupjs", "dark:rollupjs", "light:rollupjs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "ros": {
+    "alias": ["ros", "dark:ros", "light:ros"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "scala": {
+    "alias": ["scala", "dark:scala", "light:scala"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "scikitlearn": {
+    "alias": ["scikitlearn", "dark:scikitlearn", "light:scikitlearn"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "sequelize": {
+    "alias": ["sequelize", "dark:sequelize", "light:sequelize"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "sketchup": {
+    "alias": ["sketchup", "dark:sketchup", "light:sketchup"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "solidjs": {
+    "alias": ["solidjs", "dark:solidjs", "light:solidjs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "spring": {
+    "alias": ["spring", "dark:spring", "light:spring"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "stackoverflow": {
+    "alias": ["stackoverflow", "dark:stackoverflow", "light:stackoverflow"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "sublime": {
+    "alias": ["sublime", "dark:sublime", "light:sublime"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "supabase": {
+    "alias": ["supabase", "dark:supabase", "light:supabase"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "svg": {
+    "alias": ["svg", "dark:svg", "light:svg"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "symfony": {
+    "alias": ["symfony", "dark:symfony", "light:symfony"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "tailwindcss": {
+    "alias": ["tailwindcss", "dark:tailwindcss", "light:tailwindcss"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "tauri": {
+    "alias": ["tauri", "dark:tauri", "light:tauri"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "tensorflow": {
+    "alias": ["tensorflow", "dark:tensorflow", "light:tensorflow"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "terraform": {
+    "alias": ["terraform", "dark:terraform", "light:terraform"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "threejs": {
+    "alias": ["threejs", "dark:threejs", "light:threejs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "ubuntu": {
+    "alias": ["ubuntu", "dark:ubuntu", "light:ubuntu"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "unity": {
+    "alias": ["unity", "dark:unity", "light:unity"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "v": {
+    "alias": ["v", "dark:v", "light:v"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "vercel": {
+    "alias": ["vercel", "dark:vercel", "light:vercel"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "vim": {
+    "alias": ["vim", "dark:vim", "light:vim"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "visualstudio": {
+    "alias": ["visualstudio", "dark:visualstudio", "light:visualstudio"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "vite": {
+    "alias": ["vite", "dark:vite", "light:vite"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "vitest": {
+    "alias": ["vitest", "dark:vitest", "light:vitest"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "vscode": {
+    "alias": ["vscode", "dark:vscode", "light:vscode"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "vscodium": {
+    "alias": ["vscodium", "dark:vscodium", "light:vscodium"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "vuejs": {
+    "alias": ["vuejs", "dark:vuejs", "light:vuejs"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "vuetify": {
+    "alias": ["vuetify", "dark:vuetify", "light:vuetify"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "webpack": {
+    "alias": ["webpack", "dark:webpack", "light:webpack"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "webstorm": {
+    "alias": ["webstorm", "dark:webstorm", "light:webstorm"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "windicss": {
+    "alias": ["windicss", "dark:windicss", "light:windicss"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "windows": {
+    "alias": ["windows", "dark:windows", "light:windows"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "workers": {
+    "alias": ["workers", "dark:workers", "light:workers"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "yarn": {
+    "alias": ["yarn", "dark:yarn", "light:yarn"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "yew": {
+    "alias": ["yew", "dark:yew", "light:yew"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "zig": {
+    "alias": ["zig", "dark:zig", "light:zig"],
+    "themes": ["dark", "light"],
+    "defaultTheme": "dark"
+  },
+  "adonis": {
+    "alias": ["adonis", "original:adonis"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "aftereffects": {
+    "alias": ["aftereffects", "original:aftereffects"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "ansible": {
+    "alias": ["ansible", "original:ansible"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "apollo": {
+    "alias": ["apollo", "original:apollo"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "appwrite": {
+    "alias": ["appwrite", "original:appwrite"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "arduino": {
+    "alias": ["arduino", "original:arduino"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "astro": {
+    "alias": ["astro", "original:astro"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "atom": {
+    "alias": ["atom", "original:atom"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "audition": {
+    "alias": ["audition", "original:audition"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "azul": {
+    "alias": ["azul", "original:azul"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "babel": {
+    "alias": ["babel", "original:babel"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "bootstrap": {
+    "alias": ["bootstrap", "original:bootstrap"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "c": {
+    "alias": ["c", "original:c"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "cpp": {
+    "alias": ["cpp", "original:cpp"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "cs": {
+    "alias": ["cs", "original:cs"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "css": {
+    "alias": ["css", "original:css"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "discord": {
+    "alias": ["discord", "original:discord"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "discordbots": {
+    "alias": ["discordbots", "original:discordbots"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "django": {
+    "alias": ["django", "original:django"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "docker": {
+    "alias": ["docker", "original:docker"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "dotnet": {
+    "alias": ["dotnet", "original:dotnet"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "electron": {
+    "alias": ["electron", "original:electron"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "emacs": {
+    "alias": ["emacs", "original:emacs"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "ember": {
+    "alias": ["ember", "original:ember"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "fastapi": {
+    "alias": ["fastapi", "original:fastapi"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "forth": {
+    "alias": ["forth", "original:forth"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "fortran": {
+    "alias": ["fortran", "original:fortran"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "gamemakerstudio": {
+    "alias": ["gamemakerstudio", "original:gamemakerstudio"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "gatsby": {
+    "alias": ["gatsby", "original:gatsby"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "git": {
+    "alias": ["git", "original:git"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "golang": {
+    "alias": ["golang", "original:golang", "go", "dark:go", "light:go"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "gulp": {
+    "alias": ["gulp", "original:gulp"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "heroku": {
+    "alias": ["heroku", "original:heroku"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "html": {
+    "alias": ["html", "original:html"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "illustrator": {
+    "alias": ["illustrator", "original:illustrator"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "instagram": {
+    "alias": ["instagram", "original:instagram"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "javascript": {
+    "alias": ["javascript", "original:javascript", "js"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "jest": {
+    "alias": ["jest", "original:jest"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "jquery": {
+    "alias": ["jquery", "original:jquery"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "kafka": {
+    "alias": ["kafka", "original:kafka"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "kubernetes": {
+    "alias": ["kubernetes", "original:kubernetes"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "linkedin": {
+    "alias": ["linkedin", "original:linkedin"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "mongodb": {
+    "alias": ["mongodb", "original:mongodb"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "nginx": {
+    "alias": ["nginx", "original:nginx"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "ocaml": {
+    "alias": ["ocaml", "original:ocaml"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "openshift": {
+    "alias": ["openshift", "original:openshift"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "p5js": {
+    "alias": ["p5js", "original:p5js"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "perl": {
+    "alias": ["perl", "original:perl"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "photoshop": {
+    "alias": ["photoshop", "original:photoshop"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "postman": {
+    "alias": ["postman", "original:postman"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "premiere": {
+    "alias": ["premiere", "original:premiere"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "prisma": {
+    "alias": ["prisma", "original:prisma"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "prometheus": {
+    "alias": ["prometheus", "original:prometheus"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "rails": {
+    "alias": ["rails", "original:rails"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "redux": {
+    "alias": ["redux", "original:redux"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "robloxstudio": {
+    "alias": ["robloxstudio", "original:robloxstudio"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "rocket": {
+    "alias": ["rocket", "original:rocket"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "ruby": {
+    "alias": ["ruby", "original:ruby"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "rust": {
+    "alias": ["rust", "original:rust"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "sass": {
+    "alias": ["sass", "original:sass"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "selenium": {
+    "alias": ["selenium", "original:selenium"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "sentry": {
+    "alias": ["sentry", "original:sentry"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "solidity": {
+    "alias": ["solidity", "original:solidity"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "sqlite": {
+    "alias": ["sqlite", "original:sqlite"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "styledcomponents": {
+    "alias": ["styledcomponents", "original:styledcomponents"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "svelte": {
+    "alias": ["svelte", "original:svelte"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "swift": {
+    "alias": ["swift", "original:swift"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "twitter": {
+    "alias": ["twitter", "original:twitter"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "typescript": {
+    "alias": ["typescript", "original:typescript", "ts"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "unrealengine": {
+    "alias": ["unrealengine", "original:unrealengine"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "vala": {
+    "alias": ["vala", "original:vala"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "webassembly": {
+    "alias": ["webassembly", "original:webassembly"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "webflow": {
+    "alias": ["webflow", "original:webflow"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "wordpress": {
+    "alias": ["wordpress", "original:wordpress"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  },
+  "xd": {
+    "alias": ["xd", "original:xd"],
+    "themes": ["original"],
+    "defaultTheme": "original"
+  }
+}
