@@ -1,19 +1,18 @@
 import { getIconByAlias } from '../../../../db/db'
 import * as icons from '../../../../dist/icons.json'
 
-import { requestIconHasTheme } from '../utils/requestIconHasTheme'
+import { requestIconHasTheme } from '../common/requestIconHasTheme'
 
 const ONE_ICON = 48
 const SCALE = ONE_ICON / (300 - 44)
 
-export async function svg(requestIcons, perLine) {
+export async function svg(db, requestIcons, perLine) {
   const iconSvgList = await Promise.all(
     requestIcons.map(async (requestIcon) => {
-      const icon = await getIconByAlias(requestIcon)
+      const icon = await getIconByAlias(db, requestIcon)
       if (!icon) return null
 
       if (!requestIconHasTheme(requestIcon)) {
-        console.log('entrei aqui')
         return icons[`${icon.icon.defaultTheme}:${icon.id}`] ?? null
       }
       return icons[requestIcon]
