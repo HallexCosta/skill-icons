@@ -1,11 +1,7 @@
 // import db from '../db.json'
 
-import { cachedDb } from '../../src/modules/skill-icons/db/cachedDb.js'
-
-export const getIconByAlias = async (alias) => {
+export const getIconByAlias = async (db, alias) => {
   let foundIcon = null
-
-  const db = cachedDb.get()
 
   for (const id in db) {
     if (db[id].alias.includes(alias)) {
