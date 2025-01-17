@@ -12,7 +12,6 @@ for (const svgIconFile of fs.readdirSync(`${process.cwd()}/icons`)) {
   let [theme, id] = svgIconFile.split(':')
   id = id.replace('.svg', '')
   if (!getIconById(id)) {
-    console.log('entrei aqui')
     process.exit()
     createNewIcon(id, {
       alias: [id, `${theme}:${id}`],
