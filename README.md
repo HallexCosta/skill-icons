@@ -50,7 +50,7 @@ Change the `/icons?i=<theme>:<icon-id>` to either `original`, `dark` or `light`.
 **Random Theme Example:**
 
 ```md
-[![My Skills](https://skill-icons.hallexcosta.com/icons?i=original:go,light:kotlin,dark:nodejs,dark:figma)](https://skill-icons.hallexcosta.com)
+[![My Skills](https://skill-icons.hallexcosta.com/icons?i=go,light:kotlin,dark:nodejs,dark:figma)](https://skill-icons.hallexcosta.com)
 ```
 
 [![My Skills](https://skill-icons.hallexcosta.com/icons?i=java,kotlin,nodejs,figma)](https://skill-icons.hallexcosta.com)
