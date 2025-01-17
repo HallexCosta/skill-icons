@@ -17,6 +17,10 @@
 - [Icons Per Line](#icons-per-line)
 - [Centering Icons](#centering-icons)
   - [💖 Support the Project](#-support-the-project)
+- [Pull Request Guide](#pull-request-guide)
+  - [Icon format](#icon-format)
+  - [Naming icon](#naming-icon)
+  - [Defining alias](#defining-alias)
 
 <!-- # Example
 
@@ -81,6 +85,7 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
   </a>
 </p>
 
+
 ## 💖 Support the Project
 
 Thank you so much already for using my projects!
@@ -88,3 +93,102 @@ Thank you so much already for using my projects!
 <!-- <a href='https://ko-fi.com/Q5Q860KQ2' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> -->
 
 To support the project directly, feel free to open issues/discussions for icon suggestions, or contribute with a pull request!
+
+
+# Pull Request Guide
+
+## Icon format
+- Ensure that the icon have a size 256x256 (width x height).
+- Ensure that format of icon is `svg`
+- Ensure that the icon name have at least a of themes `original`, `dark` or `light`
+- Ensure that the corner radius (border radius) is equal 60
+
+## Naming icon
+- If you want add only 1 icon, you can define the name using `original:<youricon>`
+- Ensure that icon dont have a separator flag as (`\`, `_`, <code>-</code>, `#`, `@`, etc) in icons with compound name to prevent conflicts
+
+:x: **Incorrect**  
+`original:styled-components`  
+`original:styled#components`  
+`original:styled_components`  
+
+:white_check_mark: **Correct**  
+`original:styledcomponents`
+
+## Defining alias
+- Ensure that the icon dont have repeat alias name
+- Ensure the theme is also in the alias name
+
+:x: **Incorrect**
+> [!IMPORTANT]  
+> Note that the java alias is already being used by another icon, so it cannot be added in javascript.
+```json
+{
+  "javascript": {
+    "alias": [
+      "javascript",
+      "java",
+      "original:javascript",
+      "dark:javascript",
+      "light:javascript"
+    ],
+    "themes": [
+      "original",
+      "dark",
+      "light"
+    ]
+  },
+  "java": {
+    "alias": [
+      "java",
+      "original:java",
+      "dark:java",
+      "light:java"
+    ],
+    "themes": [
+      "original",
+      "dark",
+      "light"
+    ]
+  }
+}
+```
+
+:white_check_mark: **Correct**
+> [!IMPORTANT]  
+> Note that I have now changed the alias name to js and added it in javascript, as it is not being used by another icon.  
+> I have also made sure that the themes are being set to that alias as well.
+```json
+{
+  "javascript": {
+    "alias": [
+      "javascript",
+      "js",
+      "original:js",
+      "dark:js",
+      "light:js",
+      "original:javascript",
+      "dark:javascript",
+      "light:javascript"
+    ],
+    "themes": [
+      "original",
+      "dark",
+      "light"
+    ]
+  },
+  "java": {
+    "alias": [
+      "java",
+      "original:java",
+      "dark:java",
+      "light:java"
+    ],
+    "themes": [
+      "original",
+      "dark",
+      "light"
+    ]
+  }
+}
+```
