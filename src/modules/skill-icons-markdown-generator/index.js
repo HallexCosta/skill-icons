@@ -9,7 +9,7 @@ const wrapperSvg = (svgs) =>
   html`<div style="display: flex; align-items: center; justify-content: center; gap: 10px;">${svgs}</div>`
 
 const mapToSvgImg = (theme, id) =>
-  html`<img src="./icons/${theme}:${id}.svg" />`
+  html`<img src="../icons/${theme}:${id}.svg" />`
 
 const mapToTablemark = (skillIcons) => {
   return Object.keys(skillIcons).map((id) => ({
