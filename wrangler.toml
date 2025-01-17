@@ -1,7 +1,6 @@
 compatibility_date = "2022-05-09"
 main = "./src/modules/skill-icons/index.js"
 name = "skill-icons"
-usage_model = 'bundled'
 compatibility_flags = [ "nodejs_compat_v2" ]
 workers_dev = false
 routes = [
