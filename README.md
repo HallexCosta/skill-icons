@@ -16,11 +16,11 @@
 - [Themed Icons](#themed-icons)
 - [Icons Per Line](#icons-per-line)
 - [Centering Icons](#centering-icons)
-  - [💖 Support the Project](#-support-the-project)
 - [Pull Request Guide](#pull-request-guide)
   - [Icon format](#icon-format)
   - [Naming icon](#naming-icon)
   - [Defining alias](#defining-alias)
+- [💖 Support the Project](#-support-the-project)
 
 <!-- # Example
 
@@ -37,7 +37,7 @@ Change the `/icons?i=js,html,css` to a list of your skills separated by ","s! Yo
 [![My Skills](https://skill-icons.hallexcosta.com/icons?i=js,ts,react,php,go,rust)](https://skill-icons.hallexcosta.com)
 ```
 
-[![My Skills](https://skill-icons.hallexcosta.com/icons?i=js,ts,react,php,go,rust)](https://skill-icons.hallexcosta.com)
+![](https://skill-icons.hallexcosta.com/icons?i=js,ts,react,php,go,rust)
 
 # Themed Icons
 
@@ -53,7 +53,7 @@ Change the `/icons?i=<theme>:<icon-id>` to either `original`, `dark` or `light`.
 [![My Skills](https://skill-icons.hallexcosta.com/icons?i=go,light:kotlin,dark:nodejs,dark:figma)](https://skill-icons.hallexcosta.com)
 ```
 
-[![My Skills](https://skill-icons.hallexcosta.com/icons?i=java,kotlin,nodejs,figma)](https://skill-icons.hallexcosta.com)
+![](https://skill-icons.hallexcosta.com/icons?i=java,kotlin,nodejs,figma)
 
 # Icons Per Line
 
@@ -65,7 +65,8 @@ Change the `&perline=3` to any number between 1 and 50.
 [![My Skills](https://skill-icons.hallexcosta.com/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skill-icons.hallexcosta.com)
 ```
 
-[![My Skills](https://skill-icons.hallexcosta.com/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skill-icons.hallexcosta.com)
+![](https://skill-icons.hallexcosta.com/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)
+
 
 # Centering Icons
 
@@ -73,27 +74,17 @@ Want to center the icons in your readme? The SVGs are automatically resized, so 
 
 ```html
 <p align="center">
-  <a href="https://skill-icons.hallexcosta.com">
+  <a href="https://skill-icons.hallexcosta.com/icons?i=git,kubernetes,docker,c,vim">
     <img src="https://skill-icons.hallexcosta.com/icons?i=git,kubernetes,docker,c,vim" />
   </a>
 </p>
 ```
 
 <p align="center">
-  <a href="https://skill-icons.hallexcosta.com">
+  <a href="https://skill-icons.hallexcosta.com/icons?i=git,kubernetes,docker,c,vim">
     <img src="https://skill-icons.hallexcosta.com/icons?i=git,kubernetes,docker,c,vim" />
   </a>
 </p>
-
-
-## 💖 Support the Project
-
-Thank you so much already for using my projects!
-
-<!-- <a href='https://ko-fi.com/Q5Q860KQ2' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> -->
-
-To support the project directly, feel free to open issues/discussions for icon suggestions, or contribute with a pull request!
-
 
 # Pull Request Guide
 
@@ -192,3 +183,11 @@ To support the project directly, feel free to open issues/discussions for icon s
   }
 }
 ```
+
+# 💖 Support the Project
+
+Thank you so much already for using my projects!
+
+<!-- <a href='https://ko-fi.com/Q5Q860KQ2' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi1.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a> -->
+
+To support the project directly, feel free to open issues/discussions for icon suggestions, or contribute with a pull request!
