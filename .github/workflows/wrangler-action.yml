@@ -9,6 +9,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: 
+      name: Production
+      url: ${{ steps.deploy.outputs.url }}
     name: Deploy
     steps:
       - uses: actions/checkout@v4
@@ -24,6 +27,12 @@ jobs:
           pnpm build
 
       - name: Publish
+        id: deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
+
+      - name: Print Deployment URL
+        env:
+          DEPLOYMENT_URL: ${{ steps.deploy.outputs.deployment-url }}
+        run: echo $DEPLOYMENT_URL
