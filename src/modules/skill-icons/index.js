@@ -1,9 +1,9 @@
 import * as icons from '../../../dist/icons.json'
-import { response } from './workers/response'
+import { response } from './workers/response.js'
+import { getOrCreateCachedDb } from './workers/cache/getOrCreateCachedDb.js'
 
-import { cachedDb } from './db/cachedDb'
 import { generatorService } from './services/generatorSvgService'
-import { validateRequestIconsCorrectFormat } from './utils/validateRequestIconsCorrectFormat'
+import { validateRequestIconsCorrectFormat } from './common/validateRequestIconsCorrectFormat'
 
 const ICONS_PER_LINE = 15
 
@@ -57,7 +57,6 @@ async function handleRequest(request, env, ctx) {
       )
 
     const requestIcons = iconParam.split(',')
-
     const iconNames = validateRequestIconsCorrectFormat(requestIcons)
     if (!iconNames) {
       return response.json(
@@ -70,32 +69,13 @@ async function handleRequest(request, env, ctx) {
       )
     }
 
-    const dbUrl = new URL(env.DB_URL)
-    const dbCacheKey = new Request(dbUrl.toString())
+    const memoryCachedDb = await getOrCreateCachedDb({
+      ctx,
+      url: env.DB_URL,
+      timeInSeconds: 60 * 60 * 1000
+    })
 
-    const dbCache = caches.default
-    let dbCacheResponse = await dbCache.match(dbCacheKey)
-
-    if (!dbCacheResponse) {
-      console.log(
-        `Response for request url: ${dbCacheKey.url} not present in cache. Fetching and caching request.`
-      )
-      // If not in cache, get it from origin
-      dbCacheResponse = await fetch(dbCacheKey.url)
-      // console.log('before getAlias', await dbCacheResponse.text())
-      // Must use Response constructor to inherit all of response's fields
-      dbCacheResponse = new Response(dbCacheResponse.body, response)
-      // Cache API respects Cache-Control headers. Setting s-max-age to 10
-      // will limit the response to be in cache for 3600 seconds max (1 hour)
-      // Any changes made to the response here will be reflected in the cached value
-      dbCacheResponse.headers.append('Cache-Control', 's-maxage=3600')
-      ctx.waitUntil(dbCache.put(dbCacheKey, dbCacheResponse.clone()))
-    } else {
-      cachedDb.put(await dbCacheResponse.json())
-      console.log('Cache hit for some user')
-    }
-
-    const svg = await generatorService.svg(requestIcons, perLine)
+    const svg = await generatorService.svg(memoryCachedDb, requestIcons, perLine)
     return response.svg(svg)
   }
 
