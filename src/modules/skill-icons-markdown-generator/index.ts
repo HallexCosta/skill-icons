@@ -17,8 +17,7 @@ const mapToTablemark = (skillIcons) => {
     svg: wrapperSvg(
       skillIcons[id].themes.map((theme) => mapToSvgImg(theme, id)).join('')
     ),
-    ...skillIcons[id],
-    total: '-'
+    ...skillIcons[id]
   }))
 }
 
