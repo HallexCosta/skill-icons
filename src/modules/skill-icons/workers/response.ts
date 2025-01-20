@@ -9,10 +9,10 @@ const defaultJsonOptions = {
 const defaultSvgOptions = { headers: { 'Content-Type': 'image/svg+xml' } }
 
 export const response = {
-  svg: (data, options = {}) => {
+  svg: (data: string, options = {}) => {
     return new Response(data, _.merge(defaultSvgOptions, options))
   },
-  json: (data, options = {}) => {
+  json: (data: Record<string, any>, options = {}) => {
     return new Response(
       JSON.stringify(data),
       _.merge(defaultJsonOptions, options)

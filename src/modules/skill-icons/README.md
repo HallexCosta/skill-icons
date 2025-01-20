@@ -2,7 +2,9 @@
 
 Skill Icons is the service deployed in cloudflare workers to provider icons for devs use in your profiles
 
-- [x] Cache
+- [x] Web Cache Storage Per request
+- [x] Gist as Db
+- [x] Github as Storage
 - [x] Theme icon control
 
 ### How to use?
@@ -17,4 +19,4 @@ Skill Icons is the service deployed in cloudflare workers to provider icons for 
 `https://skill-icons.hallexcosta.com/icons?i=<theme>:<icon>,<icon>`
 
 **Real example**  
-![](https://skill-icons.hallexcosta.com/icons?i=js,ts,light:php,nodejs,bun,go,lua,bash,cs,cpp)
+![](https://skill-icons.hallexcosta.com/icons?i=js,ts,light:php,nodejs,bun,go,lua,bash,cs,cpp,relay)
