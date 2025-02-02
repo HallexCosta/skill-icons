@@ -1,24 +1,38 @@
 {
   "name": "skill-icons",
   "version": "1.0.0",
-  "main": "./src/modules/skill-icons/index.js",
-  "exports": "./src/modules/skill-icons/index.js",
+  "main": "./src/modules/skill-icons/index.ts",
+  "exports": "./src/modules/skill-icons/index.ts",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "skill-icons:dev": "pnpm build && npx wrangler dev --live-reload ./src/modules/skill-icons/index.js",
-    "build": "node ./src/modules/skill-icons/build.js",
+    "skill-icons:dev": "npx wrangler dev --live-reload ./src/modules/skill-icons/index.ts",
+    "build": "tsx ./src/modules/skill-icons/build.ts",
     "format": "pnpm biome format --write .",
-    "deploy": "node ./src/modules/skill-icons/build.js && wrangler publish",
-    "skills-icons-markdown-generator:generate": "node ./src/modules/skill-icons-markdown-generator/index.js"
+    "deploy": "tsx ./src/modules/skill-icons/build.ts && wrangler publish",
+    "skills-icons-markdown-generator:generate": "tsx ./src/modules/skill-icons-markdown-generator/index.ts",
+    "type-check": "wrangler types --experimental-include-runtime"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4"
+    "@biomejs/biome": "1.9.4",
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "@types/dotenv-safe": "^8.1.6",
+    "@types/lodash": "^4.17.14",
+    "json-schema-to-typescript": "^15.0.4",
+    "tsx": "^4.19.2"
+  },
+  "overrides": {
+    "@types/node": "^22.10.7"
   },
   "dependencies": {
+    "@octokit/auth-app": "^7.1.4",
+    "@octokit/auth-token": "^5.1.1",
+    "@octokit/oauth-app": "^7.1.5",
+    "arktype": "^2.0.0",
     "dotenv-safe": "^9.1.0",
     "lodash": "^4.17.21",
     "lowdb": "^7.0.1",
+    "octokit": "^4.1.0",
     "tablemark": "^3.1.0"
   }
 }
