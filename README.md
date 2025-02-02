@@ -3,6 +3,7 @@
 <h3 align="center">Showcase your skills on your GitHub or resumé with ease!</h3>
 <hr>
 
+> [!IMPORTANT]  
 > NOTE: The older [project](https://github.com/tandpfun/skill-icons) has apparently been abandoned, this project is an open source continuation that aims to improve the search algorithm for icons with mixed themes, as well as caching heavy information such as the database in memory and repeated requests.
 
 <h3 align="center">Powered by Cloudflare Workers ⚡</h3>
